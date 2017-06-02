@@ -1,0 +1,169 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <title>Title</title>
+
+ 
+
+
+</head>
+
+<body>
+<script type="text/javascript">
+  (function (url) {
+      /*Tracking Bootstrap
+      Set Up DataLayer objects/properties here*/
+      if(!window.DataLayer){
+        window.DataLayer = {};
+      }
+      if(!DataLayer.events){
+        DataLayer.events = {};
+      }
+      DataLayer.events.SiteSection = "SITESECTIONID";
+          
+    var loc, ct = document.createElement("script"); 
+    ct.type = "text/javascript"; 
+    ct.async = true;
+    ct.src = url;
+    loc = document.getElementsByTagName('script')[0];
+    loc.parentNode.insertBefore(ct, loc);
+  }(document.location.protocol + "//intljs.rmtag.com/113458.ct.js"));
+</script>
+
+<script type="text/javascript">
+var rm_trans = {
+    orderid : 'ORDERID',
+    currency: 'CURRENCYCODE',
+    customerStatus: 'CUSTOMER_STATUS',
+    conversionType: 'Sale',
+    customerID: 'CUSTOMER_ID',
+    discountCode: 'DISCOUNT_CODE',
+    discountAmount: '',
+    taxAmount: '',
+    lineitems : [{
+        quantity : "1",
+        unitPrice : "0.99",
+        unitPriceLessTax: "9.99",
+        SKU: 'PRODUCT_SKU',
+        productName: 'PRODUCT_NAME'
+    }]
+};
+/*Do not edit any information beneath this line*/
+if(!window.DataLayer){window.DataLayer={Sale:{Basket:rm_trans}}}else{DataLayer.Sale=DataLayer.Sale||{Basket:rm_trans};DataLayer.Sale.Basket=DataLayer.Sale.Basket||rm_trans}DataLayer.Sale.Basket.Ready = true; function serveRDisplaySPI(a){var b=null,c="964",d="//tags.mediaforge.com/js/"+c,e=b,f=b,g=b,h=window.DataLayer&&window.DataLayer.Sale&&window.DataLayer.Sale.Basket?window.DataLayer.Sale.Basket:{};if(h.orderid&&"Sale"===h.conversionType){e="",g=0,f=h.orderid;for(var i=0;i<(h.lineitems?h.lineitems.length:0);i++)g+=h.lineitems[i].unitPriceLessTax*h.lineitems[i].quantity,e+=h.lineitems[i].SKU+",";e=e.slice(0,-1),h.discountAmount&&(g+=-1*h.discountAmount),g=Math.round(100*g)/100}e&&(d=d.indexOf("?")>-1?d+"&prodID="+e:d+"/?prodID="+e),f&&(d=d.indexOf("?")>-1?d+"&orderNumber="+f:d+"/?orderNumber="+f),g&&(d=d.indexOf("?")>-1?d+"&price="+g:d+"/?price="+g);var j=document.createElement("script");j.src=d,j.type="text/javascript",document.getElementsByTagName("body")[0].appendChild(j)}serveRDisplaySPI();
+
+
+</script>
+
+<!-- Resilion Clickmeter Tag -->
+<!-- <script type="text/javascript">
+				var ClickMeter_conversion_id = 'DBABA48FA1724F58AD74B71B689C75D';
+        var ClickMeter_conversion_value = "0.00";
+         
+</script>
+<script type='text/javascript' id='cmconvscript' src='//s3.amazonaws.com/scripts-clickmeter-com/js/conversion.js'>
+</script> -->
+<!-- End Resilion Clickmeter Tag -->
+
+<!-- <script type="text/javascript">
+  (function(){
+debugger;
+    // Create a queue, but don't obliterate an existing one!
+    var analytics = window.analytics = window.analytics || [];
+
+    // If the real analytics.js is already on the page return.
+    if (analytics.initialize) return;
+
+    // If the snippet was invoked already show an error.
+    if (analytics.invoked) {
+      if (window.console && console.error) {
+        console.error('Segment snippet included twice.');
+      }
+      return;
+    }
+
+    // Invoked flag, to make sure the snippet
+    // is never invoked twice.
+    analytics.invoked = true;
+
+    // A list of the methods in Analytics.js to stub.
+    analytics.methods = [
+      'trackSubmit',
+      'trackClick',
+      'trackLink',
+      'trackForm',
+      'pageview',
+      'identify',
+      'reset',
+      'group',
+      'track',
+      'ready',
+      'alias',
+      'debug', 
+      'page',
+      'once',
+      'off',
+      'on'
+    ];
+
+    // Define a factory to create stubs. These are placeholders
+    // for methods in Analytics.js so that you never have to wait
+    // for it to load to actually record data. The `method` is
+    // stored as the first argument, so we can replay the data.
+    analytics.factory = function(method){
+      return function(){
+        var args = Array.prototype.slice.call(arguments);
+        args.unshift(method);
+        analytics.push(args);
+        return analytics;
+      };
+    };
+
+    // For each of our methods, generate a queueing stub.
+    for (var i = 0; i < analytics.methods.length; i++) {
+      var key = analytics.methods[i];
+      analytics[key] = analytics.factory(key);
+    }
+
+    // Define a method to load Analytics.js from our CDN,
+    // and that will be sure to only ever load it once.
+    analytics.load = function(key){
+      // Create an async script element based on your key.
+      var script = document.createElement('script');
+      script.type = 'text/javascript';
+      script.async = true;
+      script.src = ('https:' === document.location.protocol
+        ? 'https://' : 'http://')
+        + 'cdn.segment.com/analytics.js/v1/'
+        + key + '/analytics.min.js';
+
+      // Insert our script next to the first script element.
+      var first = document.getElementsByTagName('script')[0];
+      first.parentNode.insertBefore(script, first);
+    };
+
+    // Add a version to keep track of what's in the wild.
+    analytics.SNIPPET_VERSION = '4.0.0';
+
+    // Load Analytics.js with your key, which will automatically
+    // load the tools you've enabled for your account. Boosh!
+    analytics.load("GHkUIdmiQcLWwGC71c4QMfHts9hDLRBk");
+    analytics.track('Product Clicked', { 
+		product_id: '35-2', 
+		sku: '2130008', 
+		category: 'batteries', 
+		name: 'Battery, Group Size 35, 640 CCA', 
+		brand: '', 
+		price: 133.99, 
+		position: 3 
+		});
+    // Make the first page call to load the integrations. If
+    // you'd like to manually name or tag the page, edit or
+    // move this call however you'd like.
+    analytics.page();
+  })();
+
+</script> -->
+
+</body>
+</html>
