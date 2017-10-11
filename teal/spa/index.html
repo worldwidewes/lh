@@ -2,6 +2,20 @@
 <html>
   
 <head>
+  <script type="text/javascript">
+    var utag_data={
+    site_region   : "us",
+    site_currency : "USD",
+    page_type   : "SPA",
+    page_name   : "Home"
+    }; 
+    (function(a,b,c,d){
+    a='//tags.tiqcdn.com/utag/services-wesley/main/prod/utag.js';
+    b=document;c='script';d=b.createElement(c);d.src=a;d.type='text/java'+c;d.async=true;
+    a=b.getElementsByTagName(c)[0];a.parentNode.insertBefore(d,a);
+    })();
+  </script>
+  
   <script src="https://unpkg.com/react@15.3.2/dist/react.js"></script>
   <script src="https://unpkg.com/react-dom@15.3.2/dist/react-dom.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.23/browser.min.js"></script>
@@ -54,43 +68,115 @@
   
   <script type="text/babel">
     var destination = document.querySelector("#container");
+
+    var { Router,
+      Route,
+      IndexRoute,
+      IndexLink,
+      hashHistory,
+      Link } = ReactRouter;
+
+    //shell of app
+    var App = React.createClass({
+      render: function() {
+        return (
+          <div>
+            <h1>React Single Page Application + Tealium</h1>
+            <ul className="header">
+              <li><Link to="/">Home</Link></li>
+              <li><Link to="/FAQ">FAQ</Link></li>
+              <li><Link to="/DocumentationLinks">Documentation Links</Link></li>
+            </ul>
+            <div className="content">
+              {this.props.children}
+            </div>
+          </div>
+        )
+      }
+    });
+
+    //home view
     var Home = React.createClass({
       render: function() {
           return (
             <div>
-              <h2>HELLO</h2>
-              <p>The quick brown fox jumped over the lazy dog.The quick brown fox jumped over the lazy dog.The quick brown fox jumped over the lazy dog.The quick brown fox jumped over the lazy dog.The quick brown fox jumped over the lazy dog.</p>
+              <h2>Welcome</h2>
+              <p>This is a demo of a Single Page Application with Tealium integrated</p>
       
               <p>The quick brown fox jumped over the lazy dog.</p>
             </div>
           );
         }
     });
-    var App = React.createClass({
+
+    //stuff view
+    var FAQ = React.createClass({
       render: function() {
-        return (
-          <div>
-            <h1>Simple SPA</h1>
-            <ul className="header">
-              <li>Home</li>
-              <li>Stuff</li>
-              <li>Contact</li>
-            </ul>
-            <div className="content">
-              <Home/>
+          return (
+            <div>
+              <h2>FAQ</h2>
+              <p></p>
+              <ol>
+                <li><strong>What's different about using SPA's with utag.js 4.40+ ?</strong></li>
+                  <ul>
+                    <li>
+                      Previously, items in current data layer passed to utag.link/view were merged into the utag.data global object. This was required to re-evaluate load rules for each utag.link/view call. The utag.js 4.40 template takes advantage of a publish engine update so that this is no longer required. In version 4.40, the utag.data global object will not be updated with each utag.link or utag.view call.
+                    </li>
+                    <li>
+                    The utag_data object declared on initial page landing is not re-purposed with these calls. If data from the initial page landing needs to be used it will need to be re-declared and passed again in the method call.
+                    </li>
+                    <li>
+                    The utag_data object declared on initial page landing is not re-purposed with these calls. If data from the initial page landing needs to be used it will need to be re-declared and passed again in the method call.
+                    </li>
+                  </ul>
+                  <li><strong>How do I track virtual page views?</strong></li>
+                  <ul>
+                    <li>
+                      On single page applications where the page loads utag.js only once per visit, you will suppress the automatic page view tracking call to allow your application to make these calls directly. Use this command: 
+                      <li>
+                        Set window.utag_cfg_ovrd equal to an object with the key value pair noview:true
+                      </li>
+                    </li>
+                  </ul>
+              </ol>
             </div>
-          </div>
-        )
-      }
+          );
+        }
     });
+
+    //documentation links view
+    var DocumentationLinks = React.createClass({
+      render: function() {
+          return (
+            <div>
+              <h2>GOT QUESTIONS?</h2>
+              <h3>Join our Community!
+                <p><a href="https://community.tealiumiq.com/">Tealium Learning Community</a></p>
+              </h3>
+              <h3>Page Tracking</h3>
+                <p><a href="https://community.tealiumiq.com/t5/JavaScript-utag-js/Page-Tracking/ta-p/15563">Page Tracking Guide</a></p>
+              <h3>Utag.js Release Notes (for unique version behaviors)</h3>
+              <p><a href="https://community.tealiumiq.com/t5/JavaScript-utag-js/Release-Notes-utag-js/ta-p/5549">Release Notes</a></p>
+            </div>
+          );
+        }
+    });
+    
+
+
+
     ReactDOM.render(
-    <ReactRouter.Router history={ReactRouter.hashHistory}>
-    <ReactRouter.Route path="/" component={App}>
-    </ReactRouter.Route>
-    </ReactRouter.Router>,
-    destination
-    );
+    <Router history={ReactRouter.hashHistory}>
+      <Route path="/" component={App}>
+        <IndexRoute component={Home}/>
+        <Route path="FAQ" component={FAQ} />
+        <Route path="DocumentationLinks" component={DocumentationLinks} />
+      </Route>
+    </Router>,
+
+    destination);
   </script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </body>
   
 </html>
