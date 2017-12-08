@@ -1,0 +1,14 @@
+site change log
+
+#5/21/16
+custom.css
+yellowgreen to #C35817 (brown)
+
+writing.jpg to crf.jpg (motox pic)
+
+concert.jpg to headshot2.jpg
+
+
+index.html
+
+iphone.jpg to surf1.jpg

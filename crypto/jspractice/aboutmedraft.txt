@@ -1,0 +1,38 @@
+
+	<!-- Content 1 -->
+    <section class="content">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <img class="img-responsive img-circle center-block" src="/images/aboutmepic.jpg" alt="">
+                </div>
+                <div class="container-fluid" id="textdiv">
+                	<h3>Associate Client Integration Engineer</h3>
+					
+					<ul>
+					<li>Integrate clients with new technical solutions, guiding developer teams from product selection to code implementation.</li>
+					<li>Mobile app tracking integration lead</li>
+					<li>Troubleshoot issues with CJ API, JavaScript implementation, tag management systems, analytics, data transfers, mobile and desktop conversion tracking.</li>
+					<li>Oversee client accounts, identify enhancement opportunities and drive creative solutions that meet marketing initiatives and anticipate future needs.</li>
+					<li>Serve as liaison between client development teams and external clients for technical support via phone and support tickets</li>
+					Conversant is an Epsilon company, part of Alliance Data Systems. Alliance Data provides consumer data-based loyalty and marketing programs to the world's leading retailers.
+					</ul>
+							</br>
+							</br>
+					<h3>Advertiser Services Consultant</h3>
+					
+					<ul>
+					<li>Provide best practices and account reviews to new clients post-launch</li>
+					<li>Data transfer specialist-product feeds, corrections, action batch, tiered commission automation(FTP,SFTP,HTTP)</li>
+					<li>Resolve down tracking issues from review of source code, tag manager and internal tracking settings, to testing and approval</li>
+					<li>Process contract renewal notices, deactivation of accounts, and deliver contract specifics</li>
+					<li>Deliver internal training sessions on technical tools and content</li>
+					<li>3rd party tracking-implementation, updates, and troubleshooting</li>
+						Conversant is an Epsilon company, part of Alliance Data Systems. Alliance Data provides consumer data-based loyalty and marketing programs to the world's leading retailers.
+					</ul>
+				
+                </div>                
+               
+            </div>
+        </div>
+    </section>
