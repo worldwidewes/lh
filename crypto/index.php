@@ -30,10 +30,22 @@
 
         <div class="header-content" id="top-image">
             <div class="header-content-inner">
-                </br><h1>Bitcoin Tuturials</strong></h1>
-                <h4>The site for teaching you the in's and out's of Bitcoin and cryptocurrencies.</h4>
+                </br>
+                <h1>
+                    
+                    <strong><span class="glyphicon glyphicon-bitcoin"></span>itcoin</strong> Mentor
+                </h1>
+                    <h3>
+
+
+                        Getting Started With Cryptocurrency Investing
+
+
+                    </h3>
+                <img class="img-responsive" src="/crypto/images/btc_chart.png" alt="">
             </div>
         </div>
+
     </header>
 
     <!-- Intro Section -->
@@ -44,7 +56,8 @@
                     <h3 class="section-heading">
                         <span class="glyphicon glyphicon-bitcoin"></span> 
                             <br/>
-                                Signup for Coinbase</h3>
+                                Signup for Coinbase
+                    </h3>
                     <p class="text-light"></p>
                 </div>
             </div>

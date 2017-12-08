@@ -30,17 +30,40 @@
         <div class="container">
             <div class="row">
                 <div class="col-xs-12 col-sm-3 col-sm-6 col-lg-4">
-                    <img class="img-responsive img-circle center-block" src="/images/aboutmepic.jpg" alt="">
+                    <img class="img-responsive" src="/crypto/images/aboutmepic.jpg" alt="">
                 </div>
                 <div class="container-fluid col-xs-12 col-sm-9 col-lg-8" id="textdiv">
                 	<p class="section-header">
-					
+                	<ul>
+						<h1>
+							About Me
+						</h1>
+
+						<p>
+							Hey All!  My name is Wes, I'm 29 years old and I'm a nerd.
+						</p>
+							</br>
+							</br>
+							</br>
+							</br>
+					</ul>
 					
 					
 					<ul>
-					<h3>Associate Client Integration Engineer
-					<div id="rightalign"><img class="img-thumbnail" style="align:right" src="http://www.cj.com/sites/all/themes/cj_us/img/CJ-Logo-Website.png"<img></div>
+					<h2>
+						Technical Background
+					</h2>
+						<h3>
+
+
+							Solutions Engineer
+
+
+								<div id="rightalign">
+									<img class="img-thumbnail" style="align:right" src="/crypto/images/teal.jpg"</img>
+								</div>
 					</h3>
+
 					<li>Integrate clients with new technical solutions, guiding developer teams from product selection to code implementation.</li>
 					<li>Mobile app tracking integration lead</li>
 					<li>Troubleshoot issues with CJ API, JavaScript implementation, tag management systems, analytics, data transfers, mobile and desktop conversion tracking.</li>
@@ -49,16 +72,6 @@
 					<sub>Conversant is an Epsilon company, part of Alliance Data Systems. Alliance Data provides consumer data-based loyalty and marketing programs to the world's leading retailers.</sub>
 						</br>
 						</br>
-								
-					<h3>Advertiser Services Consultant
-					<div id="rightalign"><img class="img-thumbnail" style="align:right" src="http://www.cj.com/sites/all/themes/cj_us/img/CJ-Logo-Website.png"<img></div>
-					</h3>
-					<li>Integrate clients with new technical solutions, guiding developer teams from product selection to code implementation.</li>
-					<li>Mobile app tracking integration lead</li>
-					<li>Troubleshoot issues with CJ API, JavaScript implementation, tag management systems, analytics, data transfers, mobile and desktop conversion tracking.</li>
-					<li>Oversee client accounts, identify enhancement opportunities and drive creative solutions that meet marketing initiatives and anticipate future needs.</li>
-					<li>Serve as liaison between client development teams and external clients for technical support via phone and support tickets</li>
-						
 					<li>Provide best practices and account reviews to new clients post-launch
 					<li>Data transfer specialist-product feeds, corrections, action batch, tiered commission automation(FTP,SFTP,HTTP)
 						Resolve down tracking issues from review of source code, tag manager and internal tracking settings, to testing and approval
@@ -68,27 +81,30 @@
 					<sub>Conversant is an Epsilon company, part of Alliance Data Systems. Alliance Data provides consumer data-based loyalty and marketing programs to the world's leading retailers.</sub>
 					</br>
 					</br>
-					
-					<h3>Insurance Sales Agent, The Hartford
-					<div id="rightalign"><img class="img-thumbnail" style="align:right" src="https://media.licdn.com/media/p/2/005/050/137/265c2c2.png"<img></div>
-					</h3>
-						<li>Educated AARP members on insurance products, coverages, and endorsements</li>
-						<li>Guided customers from quote to issue on home and auto policies</li>
-						<li>Routinely exceeded sales quotas and maintains high customer satisfaction</li>
-						<li>Pilot program participant as a volunteer to improve process and efficiencies</li>
 					</br>
 					</br>
-					
-					<h3>Financial Advisor, Merrill Lynch
-					<div id="rightalign"><img class="img-thumbnail" style="align:right" src="https://media.licdn.com/media/AAEAAQAAAAAAAAO2AAAAJDgyZDNkNDJlLWFiOTItNGQ5Yi1hNDY2LTFhNzk2Y2Q4YTI5Mw.png"<img></div>
+					<h3>Client Integration Engineer
+					<div id="rightalign"><img class="img-thumbnail" style="align:right" src="http://www.cj.com/sites/all/themes/cj_us/img/CJ-Logo-Website.png"<img></div>
 					</h3>
-						<li>Prospected clients from first touch point to acquisition</li>
-						<li>Screened potential clients and recommended investment products based on objectives and risk assessment</li>
-						<li>Executed trades, created personalized portfolios, and mailed correspondence letters</li>
-						<li>Oversee client accounts, identify enhancement opportunities and drive creative solutions that meet marketing initiatives and anticipate future needs.</li>
-						<li>Monitored performance and provided guidance to optimize client portfolios</li>
-							
-						<li>Hosted educational seminars on retirement planning topics</li>
+					<li>Integrate clients with new technical solutions, guiding developer teams from product selection to code implementation.</li>
+					<li>Mobile app tracking integration lead</li>
+					<li>Troubleshoot issues with CJ API, JavaScript implementation, tag management systems, analytics, data transfers, mobile and desktop conversion tracking.</li>
+					<li>Oversee client accounts, identify enhancement opportunities and drive creative solutions that meet marketing initiatives and anticipate future needs.</li>
+					<li>Serve as liaison between client development teams and external clients for technical support via phone and support tickets</li>
+					<sub>Conversant is an Epsilon company, part of Alliance Data Systems. Alliance Data provides consumer data-based loyalty and marketing programs to the world's leading retailers.</sub>
+						</br>
+						</br>
+					<li>Provide best practices and account reviews to new clients post-launch
+					<li>Data transfer specialist-product feeds, corrections, action batch, tiered commission automation(FTP,SFTP,HTTP)
+						Resolve down tracking issues from review of source code, tag manager and internal tracking settings, to testing and approval
+						Process contract renewal notices, deactivation of accounts, and deliver contract specifics
+						Deliver internal training sessions on technical tools and content
+						3rd party tracking-implementation, updates, and troubleshooting</li>
+					<sub>Conversant is an Epsilon company, part of Alliance Data Systems. Alliance Data provides consumer data-based loyalty and marketing programs to the world's leading retailers.</sub>
+					</br>
+					</br>
+					</br>
+					</br>
 					</ul>
 					
 					</p>

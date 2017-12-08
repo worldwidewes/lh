@@ -126,6 +126,7 @@ header .header-content .header-content-inner p {
     header .header-content .header-content-inner {
         margin-right: auto;
         margin-left: auto;
+        margin-top: 450px;
         max-width: 1000px;
         color:rgba(0, 0, 0, 0.7);
     }
