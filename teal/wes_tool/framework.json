@@ -1,0 +1,15 @@
+{
+  "id": "mfa_reset",
+  "title": "MFA Reset Utility",
+  "description": "Reset MFA and Query Primary User Account",
+  "icon_url": "https://my.tealiumiq.com/img/login/tealium_login_logo.png",
+  "scripts": {
+    "mfa_reset": {
+      "auto_inject": true,
+      "js": "https://solutions.tealium.net/hosted/tealiumTools/mfa_reset_utility/framework.js",
+      "remote_js": true,
+      "template": "https://solutions.tealium.net/hosted/tealiumTools/mfa_reset_utility/framework.html",
+      "remote_template": true
+    }
+  }
+}

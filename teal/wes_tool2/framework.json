@@ -1,0 +1,15 @@
+{
+  "id": "uuu",
+  "title": "Ultimate User Utility",
+  "description": "Testing the Tealium Tools Framework",
+  "icon_url": "https://my.tealiumiq.com/img/login/tealium_login_logo.png",
+  "scripts": {
+    "uuu_main": {
+      "auto_inject": true,
+      "js": "http://wes.com/teal/wes_tool2/framework.js",
+      "remote_js": true,
+      "template": "http://wes.com/teal/wes_tool2/framework.html",
+      "remote_template": true
+    }
+  }
+}
